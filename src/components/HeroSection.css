@@ -1,0 +1,37 @@
+.hero-image {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  background: url("hero.png") no-repeat center;
+  background-size: cover;
+  z-index: -1;
+  padding-top: 50%;
+}
+
+.hero-container h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: rgb(3, 3, 3);
+  font-size: 80px;
+  text-align: left;
+
+  font-family: "Mulish", sans-serif;
+  transform: translate(-90%, -120%);
+}
+
+.hero-container > h2 {
+  color: #00fc87;
+  font-size: 21px;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-93%, -160%);
+}
+
+.hero-container > span {
+  color: #242424;
+  font-size: 32px;
+  font-family: "Roboto", sans-serif;
+}
